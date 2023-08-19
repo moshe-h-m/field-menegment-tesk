@@ -1,5 +1,5 @@
 import {
-    Button, createTheme,
+    Button,
     Dialog, DialogActions,
     DialogContent,
     DialogTitle,
