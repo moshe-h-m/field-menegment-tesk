@@ -1,10 +1,9 @@
 import {
-    Button, Checkbox, createTheme,
+    Button, createTheme,
     Dialog, DialogActions,
     DialogContent,
-    DialogTitle, FormControlLabel,
+    DialogTitle,
     IconButton, MenuItem,
-    Stack,
     TextField
 } from "@mui/material";
 
@@ -29,16 +28,6 @@ const types = [
 
 CloseIcon.propTypes = {color: PropTypes.string};
 
-const theme = createTheme({
-    dialog: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    content: {
-        minWidth: '300px',
-    },
-});
 
 const ModalForm = ({open, handleClose}) => {
 

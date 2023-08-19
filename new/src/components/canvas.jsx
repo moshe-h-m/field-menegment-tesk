@@ -9,7 +9,6 @@ import {
     TableHead,
     TableRow
 } from "@mui/material";
-import CardField from "./card";
 import DeleteIcon from "@mui/icons-material/Delete";
 import {useDispatch, useSelector} from "react-redux";
 import Filter1Icon from '@mui/icons-material/Filter1';

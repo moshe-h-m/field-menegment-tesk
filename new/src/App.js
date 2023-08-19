@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ModalForm from "./components/modalForm";
 import {useState} from "react";
